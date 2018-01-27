@@ -1,0 +1,41 @@
+// Tablets and up
+@media only screen and (min-width: 768px) {
+    .header {
+        .logo {
+            margin-bottom: 6rem;
+        }
+        .lead {
+            font-size: 1.1rem;
+        }
+    }
+
+    .text-block {
+        width: 60%;       
+    }
+}
+
+// Small desktops and up
+@media only screen and (min-width: 1024px) {
+    .header {
+        .logo {
+            padding-top: 2rem;
+        }
+        .lead {
+            font-size: 1rem;
+        }
+
+        .text-block{
+            top: 50%;
+        }
+    }
+}
+
+// Large desktops and up
+@media only screen and (min-width: 1200px) {
+    .header {
+        .lead {
+            font-size: 1.2rem;
+        }
+    }
+}
+

@@ -1,0 +1,97 @@
+/* -------------------------------------------------------- */
+/* BASIC SETUP */
+/* -------------------------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #fff;
+  line-height: 1.7;
+  font-weight: 300;
+  color: #555;
+  font-family: 'Helvetica Neue', "Helvetica", 'Arial', sans-serif !important;
+  text-rendering: optimizeLegibility;
+  font-size: 62.5%; }
+
+img {
+  max-width: 100%; }
+
+/* -------------------------------------------------------- */
+/* LANDING*/
+/* -------------------------------------------------------- */
+.fullscreen-wrap {
+  background-image: linear-gradient(to right, rgba(210, 102, 83, 0.5), rgba(36, 67, 83, 0.5)), url(../img/hero1.JPG);
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  color: #fff;
+  position: relative; }
+
+/* -------------------------------------------------------- */
+/* LANDING HEADER*/
+/* -------------------------------------------------------- */
+.header .logo {
+  padding-top: 2rem;
+  padding-bottom: 8.5%;
+  width: 50%;
+  max-width: 200px; }
+
+.header .lead {
+  font-size: .83rem; }
+
+.text-block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%; }
+
+.social-icons {
+  padding: 0;
+  text-align: center;
+  position: fixed;
+  margin: 0 auto;
+  width: 100vw;
+  top: calc(100vh - 5rem);
+  list-style: none;
+  font-size: 1.5rem; }
+  .social-icons li {
+    display: inline-block;
+    margin-right: .5rem; }
+  .social-icons a:link,
+  .social-icons a:visited {
+    color: #fff; }
+  .social-icons a:hover,
+  .social-icons a:active {
+    opacity: .8; }
+
+.cta {
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding-top: 1rem;
+  border-bottom: 3px solid #fff;
+  padding-bottom: 0; }
+
+@media only screen and (min-width: 768px) {
+  .header .logo {
+    margin-bottom: 6rem; }
+  .header .lead {
+    font-size: 1.1rem; }
+  .text-block {
+    width: 60%; } }
+
+@media only screen and (min-width: 1024px) {
+  .header .logo {
+    padding-top: 2rem; }
+  .header .lead {
+    font-size: 1rem; }
+  .header .text-block {
+    top: 50%; } }
+
+@media only screen and (min-width: 1200px) {
+  .header .lead {
+    font-size: 1.2rem; } }
