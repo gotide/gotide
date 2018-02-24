@@ -1,0 +1,39 @@
+.manifesto {
+  padding: 0;
+
+  &__english,
+  &__spanish {
+    padding: 10rem 2rem;
+    color: white;
+    @include background-cover();
+    background-position: center;
+    height: auto;
+    margin: 0;
+    overflow-x: hidden;
+  }
+
+  &__english {
+    background-image: linear-gradient(rgba(0,0,0, .3), rgba(0,0,0, .3)),url(../img/manifesto-english.jpg);
+  }
+
+  &__spanish {
+    background-image: linear-gradient(rgba(0,0,0, .3), rgba(0,0,0, .3)),url(../img/manifesto-spanish.jpg);
+  }
+
+  &__cta {
+    display: inline-block;
+    margin-top: 2rem;
+    border-bottom: 2px solid #fff;
+
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .manifesto {
+
+    &__english,
+    &__spanish {
+      background-attachment: fixed;
+    }
+  }
+}
